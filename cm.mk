@@ -22,14 +22,14 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
-PRODUCT_NAME := huawei_u8850
+PRODUCT_NAME := u8850
 PRODUCT_BRAND := HUAWEI
-PRODUCT_DEVICE := U8850
+PRODUCT_DEVICE := u8850
 PRODUCT_MODEL := HUAWEI-Vision
 PRODUCT_MANUFACTURER := HUAWEI
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := U8850
+PRODUCT_RELEASE_NAME := u8850
 CM_BUILD := u8850-Sanaes
 
 UTC_DATE := $(shell date +%s)
